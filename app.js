@@ -1,4 +1,4 @@
-import { mostrarResultadoFinal,sistemaBancario,  sistemaFacturacion } from "./modulos/index.js";
+import { mostrarResultadoFinal,sistemaBancario,  sistemaFacturacion, sistemaAnalisisNumeros } from "./modulos/index.js";
 
 // EJERCICIO 1 //
 
@@ -16,4 +16,10 @@ sistemaBancario();
 //  EJERCICIO 3 //
 
 sistemaFacturacion();
+
+//EJERCICIO 4//
+
+sistemaAnalisisNumeros();
+
+
 

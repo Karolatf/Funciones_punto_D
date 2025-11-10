@@ -1,4 +1,4 @@
-import { mostrarResultadoFinal,sistemaBancario  } from "./modulos/index.js";
+import { mostrarResultadoFinal,sistemaBancario,  sistemaFacturacion } from "./modulos/index.js";
 
 // EJERCICIO 1 //
 
@@ -12,3 +12,8 @@ console.log (mostrarResultadoFinal (nombreEstudiante, nota1, nota2, nota3));
 // EJERCICIO 2 //
 
 sistemaBancario();
+
+//  EJERCICIO 3 //
+
+sistemaFacturacion();
+

@@ -1,4 +1,4 @@
-import { mostrarResultadoFinal } from "./modulos/index.js";
+import { mostrarResultadoFinal,sistemaBancario  } from "./modulos/index.js";
 
 // EJERCICIO 1 //
 
@@ -8,3 +8,7 @@ let nota2 = parseFloat(prompt("Ingrese la segunda nota:"));
 let nota3 = parseFloat(prompt("Ingrese la tercera nota:"));
 
 console.log (mostrarResultadoFinal (nombreEstudiante, nota1, nota2, nota3));
+
+// EJERCICIO 2 //
+
+sistemaBancario();
